@@ -1,29 +1,42 @@
+/* === General Body Styling === */
 body {
-    background: linear-gradient(270deg, transparent 15px, #00d9ff 15px, #00d9ff 30px, transparent 30px) repeat-y,
-                linear-gradient(-270deg, transparent 15px, #00d9ff 15px, #00d9ff 30px, transparent 30px) repeat-y;
+    background: 
+        linear-gradient(270deg, transparent 15px, #7e7e7e 15px, #7e7e7e 30px, transparent 30px) repeat-y,
+        linear-gradient(-270deg, transparent 15px, #7e7e7e 15px, #7e7e7e 30px, transparent 30px) repeat-y;
     background-size: 30px 60px;
     background-position: left, right;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
-h1 { /* Title/Header */
+
+/* === Heading Level 1 (Main Title) === */
+h1 {
     font-family: Cursive;
-    font-size: 48px; 
+    font-size: 48px;
     font-weight: bold;
     font-style: italic;
-    text-align: center; 
-    /* Work around to get underline to fully work. */
-    border-bottom: 3px solid black; /* Creates an underline */
+    text-align: center;
+    border-bottom: 3px solid black; /* underline workaround */
     display: inline-block;
-    padding-bottom: 0.1px; /* Adds spacing */
+    padding-bottom: 0.1px;
+    margin: 20px auto;
 }
-h2 { /* Subpage Title/Header */
+
+/* === Heading Level 2 (Subpage Headers) === */
+h2 {
     font-family: Cursive;
-    font-size: 36px; 
+    font-size: 36px;
     font-weight: bold;
-    text-align: center; 
+    text-align: center;
+    margin-top: 30px;
 }
-h3 { /* Body text */
-    font-family: Sans-serif;
+
+/* === Heading Level 3 (Body Text) === */
+h3 {
+    font-family: sans-serif;
     font-size: 24px;
     font-weight: normal;
-    text-align: left;;
+    text-align: left;
+    margin: 20px;
 }
