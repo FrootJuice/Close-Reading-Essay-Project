@@ -9,6 +9,20 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+body {
+    background:
+        url("PixelChain.png") repeat-y left top,
+        url("PixelChain.png") repeat-y right top,
+        linear-gradient(270deg, transparent 15px, #7e7e7e 15px, #7e7e7e 30px, transparent 30px) repeat-y,
+        linear-gradient(-270deg, transparent 15px, #7e7e7e 15px, #7e7e7e 30px, transparent 30px) repeat-y;
+    background-size:
+        50px auto,   /* Left chain (PixelChain1.png) */
+        50px auto,   /* Right chain (PixelChain2.png) */
+        30px 60px,   /* Decorative stripe left */
+        30px 60px;   /* Decorative stripe right */
+    
+    background-position: left, right, left, right;
+}
 
 /* === Heading Level 1 (Main Title) === */
 h1 {
