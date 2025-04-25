@@ -3,8 +3,8 @@ body {
     background: 
         url("PixelChainTransparentBackground.png") repeat-y left top,
         url("PixelChainTransparentBackground.png") repeat-y right top,
-        linear-gradient(270deg, transparent 0px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y,
-        linear-gradient(-270deg, transparent 0px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y;
+        linear-gradient(270deg, transparent 10px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y,
+        linear-gradient(-270deg, transparent 10px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y;
     background-size: 50px auto, 50px auto, 60px 60px, 60px 60px;
     background-position: left top, right top, left, right;
     background-color: #b91313;
