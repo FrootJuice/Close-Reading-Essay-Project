@@ -1,11 +1,11 @@
 /* === General Body Styling === */
 body {
     background: 
-        url("PixelChain.png") repeat-y left top,
-        url("PixelChain.png") repeat-y right top,
-        linear-gradient(270deg, transparent 15px, #7e7e7e 15px, #7e7e7e 30px, transparent 30px) repeat-y,
-        linear-gradient(-270deg, transparent 15px, #7e7e7e 15px, #7e7e7e 30px, transparent 30px) repeat-y;
-    background-size: 50px auto, 50px auto, 30px 60px, 30px 60px;
+        url("PixelChainTransparentBackground.png") repeat-y left top,
+        url("PixelChainTransparentBackground.png") repeat-y right top,
+        linear-gradient(270deg, transparent 0px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y,
+        linear-gradient(-270deg, transparent 0px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y;
+    background-size: 50px auto, 50px auto, 60px 60px, 60px 60px;
     background-position: left top, right top, left, right;
     background-color: #b91313;
     margin: 0;
