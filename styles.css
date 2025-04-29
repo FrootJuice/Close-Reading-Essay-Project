@@ -81,8 +81,11 @@ h3 {
   
     /* 2) Narrow the central column */
     .container {
-      width: 95%;
-      padding: 12px;
+        width: 92%;
+        max-width: 500px;
+        margin: 0 auto;
+        background: rgb(253, 120, 120);   /* same pink as desktop */
+        padding: 14px;
     }
   
     /* 3) Reduce heading sizes */
