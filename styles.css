@@ -13,6 +13,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* === Central column (desktop / tablet) === */
+.container {
+    width: 80%;
+    max-width: 95%;
+    margin: 20px auto;
+    background: rgb(253, 120, 120);   /* your pink */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}  
+
 /* === Heading Level 1 (Main Title) === */
 h1 {
     font-family: Bebas Neue;
