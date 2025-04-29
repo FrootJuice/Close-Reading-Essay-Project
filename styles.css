@@ -56,44 +56,34 @@ h3 {
 
     /* 1) Shrink chain and bar widths */
     body {
-      /* chain 30 px, gray bar 40 px (5 px gray either side of chain) */
       background:
         url("PixelChainTransparentBackground.png") repeat-y left top,
         url("PixelChainTransparentBackground.png") repeat-y right top,
-        /* left gray bar */
-        linear-gradient(270deg,
-                        transparent 0,
-                        #7e7e7e 5px,
-                        #7e7e7e 35px,
-                        transparent 40px) repeat-y,
-        /* right gray bar (mirrored) */
-        linear-gradient(-270deg,
-                        transparent 0,
-                        #7e7e7e 5px,
-                        #7e7e7e 35px,
-                        transparent 40px) repeat-y;
-      background-size:      30px auto, 30px auto, 40px 40px, 40px 40px;
-      background-position:  left top,  right top,  left,   right;
-      /* small horizontal padding so text never bumps bars */
+        linear-gradient(270deg, transparent 0, #7e7e7e 5px, #7e7e7e 35px, transparent 40px) repeat-y,
+        linear-gradient(-270deg, transparent 0, #7e7e7e 5px, #7e7e7e 35px, transparent 40px) repeat-y;
+      background-size: 30px auto, 30px auto, 40px 40px, 40px 40px;
+      background-position: left top, right top, left, right;
       padding-left: 8px;
       padding-right: 8px;
     }
   
-    /* 2) Narrow the central column */
+    /* 2) Central column */
     .container {
-        width: 92%;
-        max-width: 500px;
-        margin: 0 auto;
-        background: rgb(253, 120, 120);   /* same pink as desktop */
-        padding: 14px;
+      width: 92%;
+      max-width: 500px;
+      margin: 0 auto;
+      background: rgb(253, 120, 120);
+      padding: 14px;
+      box-shadow: 0 0 6px rgba(0,0,0,.4);
+      border-radius: 6px;
     }
   
-    /* 3) Reduce heading sizes */
+    /* 3) Heading & text sizes */
     h1 { font-size: 32px; }
     h2 { font-size: 24px; margin-top: 24px; }
     h3 { font-size: 18px; }
   
-    /* 4) Make thumbnails / images responsive */
+    /* 4) Fluid media */
     img,
     iframe,
     .thumb-small {
