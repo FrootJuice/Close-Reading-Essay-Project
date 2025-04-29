@@ -81,7 +81,7 @@ h3 {
     /* 2) Central column */
     .container {
       width: 80%;
-      max-width: 95%;
+      max-width: 80%;
       margin: 0 auto;
       background: rgb(253, 120, 120);
       padding: 14px;
