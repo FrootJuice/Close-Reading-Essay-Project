@@ -63,54 +63,55 @@ h3 {
 
 
 /* ----------  Mobile tweak: ? 600 px  ---------- */@media (max-width: 600px) {
-@media (max-width: 600px) {
+    @media (max-width: 600px) {
 
-    /* Force Light Mode explicitly for Samsung Internet Dark Mode */
-    html, body {
-        color-scheme: light only !important;
-        background-color: #b91313 !important; /* Explicit red background */
-        color: #000 !important; /* Explicit black text */
-    }
-    
-    /* Ensure chains remain visible and smaller */
-    body {
-        background:
-        url("PixelChainTransparentBackground.png") repeat-y left top,
-        url("PixelChainTransparentBackground.png") repeat-y right top,
-        linear-gradient(270deg, transparent 10px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y,
-        linear-gradient(-270deg, transparent 10px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y;
-        background-size: 30px auto, 30px auto, 40px 40px, 40px 40px;
-        background-position: left top, right top, left, right;
-        padding-left: 8px;
-        padding-right: 8px;
-        margin: 0;
-        padding-top: 0;
-    }
-    
-    /* Pink Box Container - Shrink further to prevent overlap with chains */
-    .container {
-        width: 80% !important;
-        max-width: 360px !important; /* explicitly small on phones */
-        margin: 0 auto !important;
-        background-color: rgb(253,120,120) !important; /* explicitly force pink */
-        padding: 14px !important;
-        box-shadow: 0 0 6px rgba(0,0,0,.4) !important;
-        border-radius: 6px !important;
-        position: relative; /* ensure stacking above background explicitly */
-        z-index: 10;
-    }
-    
-    /* Force explicit color for headings and text */
-    h1, h2, h3, p {
-        color: #000 !important; /* black explicitly forced */
-    }
-    
-    /* Images, Thumbnails, and iframes responsive */
-    img,
-    iframe,
-    .thumb-small {
-        width: 100%;
-        height: auto;
+        /* Force Light Mode explicitly for Samsung Internet Dark Mode */
+        html, body {
+            color-scheme: light only !important;
+            background-color: #b91313 !important; /* Explicit red background */
+            color: #000 !important; /* Explicit black text */
+        }
+        
+        /* Ensure chains remain visible and smaller */
+        body {
+            background:
+            url("PixelChainTransparentBackground.png") repeat-y left top,
+            url("PixelChainTransparentBackground.png") repeat-y right top,
+            linear-gradient(270deg, transparent 10px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y,
+            linear-gradient(-270deg, transparent 10px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y;
+            background-size: 30px auto, 30px auto, 40px 40px, 40px 40px;
+            background-position: left top, right top, left, right;
+            padding-left: 8px;
+            padding-right: 8px;
+            margin: 0;
+            padding-top: 0;
+        }
+        
+        /* Pink Box Container - Shrink further to prevent overlap with chains */
+        .container {
+            width: 80% !important;
+            max-width: 360px !important; /* explicitly small on phones */
+            margin: 0 auto !important;
+            background-color: rgb(253,120,120) !important; /* explicitly force pink */
+            padding: 14px !important;
+            box-shadow: 0 0 6px rgba(0,0,0,.4) !important;
+            border-radius: 6px !important;
+            position: relative; /* ensure stacking above background explicitly */
+            z-index: 10;
+        }
+        
+        /* Force explicit color for headings and text */
+        h1, h2, h3, p {
+            color: #000 !important; /* black explicitly forced */
+        }
+        
+        /* Images, Thumbnails, and iframes responsive */
+        img,
+        iframe,
+        .thumb-small {
+            width: 100%;
+            height: auto;
+        }
     }
 }
       
