@@ -67,26 +67,27 @@ h3 {
 
     /* 1) Shrink chain and bar widths */
     body {
-      background:
-        url("PixelChainTransparentBackground.png") repeat-y left top,
-        url("PixelChainTransparentBackground.png") repeat-y right top,
-        linear-gradient(270deg, transparent 10px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y,
-        linear-gradient(-270deg, transparent 10px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y;
-      background-size: 30px auto, 30px auto, 40px 40px, 40px 40px;
-      background-position: left top, right top, left, right;
-      padding-left: 8px;
-      padding-right: 8px;
+        color-scheme: only light;
+        background:
+            url("PixelChainTransparentBackground.png") repeat-y left top,
+            url("PixelChainTransparentBackground.png") repeat-y right top,
+            linear-gradient(270deg, transparent 10px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y,
+            linear-gradient(-270deg, transparent 10px, #7e7e7e 0px, #7e7e7e 60px, transparent 0px) repeat-y;
+        background-size: 30px auto, 30px auto, 40px 40px, 40px 40px;
+        background-position: left top, right top, left, right;
+        padding-left: 8px;
+        padding-right: 8px;
     }
   
     /* 2) Central column */
     .container {
-      width: 80%;
-      max-width: 80%;
-      margin: 0 auto;
-      background: rgb(253, 120, 120);
-      padding: 14px;
-      box-shadow: 0 0 6px rgba(0,0,0,.4);
-      border-radius: 6px;
+        width: 80%;
+        max-width: 80%;
+        margin: 0 auto;
+        background: rgb(253, 120, 120);
+        padding: 14px;
+        box-shadow: 0 0 6px rgba(0,0,0,.4);
+        border-radius: 6px;
     }
   
     /* 3) Heading & text sizes */
@@ -98,8 +99,8 @@ h3 {
     img,
     iframe,
     .thumb-small {
-      width: 100%;
-      height: auto;
+        width: 100%;
+        height: auto;
     }
   }
   
